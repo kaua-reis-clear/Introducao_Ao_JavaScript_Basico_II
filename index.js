@@ -1,7 +1,7 @@
 let celular = function(){
-    let cor = "prata";
+    this.cor = "prata";
 }
 
 let objeto = new celular();
 
-console.log(objeto);
+console.log(objeto.cor);
